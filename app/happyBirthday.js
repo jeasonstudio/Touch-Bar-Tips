@@ -1,16 +1,35 @@
-const { app, BrowserWindow, TouchBar } = require('electron')
-const { TouchBarLabel, TouchBarButton, TouchBarSpacer } = TouchBar
+const {
+    app,
+    BrowserWindow,
+    TouchBar
+} = require('electron')
+
+
+
+
+const {
+    TouchBarLabel,
+    TouchBarButton,
+    TouchBarSpacer
+} = TouchBar
+
+
+
 
 // birthdayButton
 const birthdayButton = new TouchBarButton({
-    label: '🎂🎂🎂 Happy Birthday, Jeason!',
-    backgroundColor: '#fff',
-    click: function () {
-        birthdayButton.label = ''
-    }
+    label: '   🎂🎂🎂 Happy Birthday, Jeason!      1996 - 2017                                                                                         ',
+    backgroundColor: '#42299a',
+    click: function () {}
 })
 
-const touchBar = new TouchBar([birthdayButton])
+const labels = new TouchBarLabel({
+    label: '🎂🎂🎂 Happy Birthday, Jeason!'
+})
+
+const touchBar = new TouchBar([
+    birthdayButton
+])
 
 app.once('ready', () => {
     let window = new BrowserWindow({

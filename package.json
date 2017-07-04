@@ -1,0 +1,22 @@
+{
+  "name": "touch-bar-tips",
+  "version": "1.0.0",
+  "description": "touchbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeasonstudio/Touch-Bar-Tips.git"
+  },
+  "keywords": [
+    "touch-bar"
+  ],
+  "author": "Jeason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeasonstudio/Touch-Bar-Tips/issues"
+  },
+  "homepage": "https://github.com/jeasonstudio/Touch-Bar-Tips#readme"
+}

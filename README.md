@@ -6,3 +6,5 @@ My Touch-Bar-Tips with electron
 demo:
 
 ![DEMO](demo.JPG)
+
+![DEMO2](demo2.JPG)
